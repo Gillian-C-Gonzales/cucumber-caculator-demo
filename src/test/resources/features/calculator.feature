@@ -22,9 +22,9 @@ Feature: Calculator Operations
     Then the result should be <expected>
 
     Examples:
-      | num1 | num2 | expected
-      |  5   |   3  |    8
-      |  10  |   20 |   30
+      | num1 | num2 | expected |
+      |  5   |   3  |    8     |
+      |  10  |   20 |   30     |
 
 
 

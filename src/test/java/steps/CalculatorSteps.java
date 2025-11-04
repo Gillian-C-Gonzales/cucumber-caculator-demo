@@ -16,12 +16,12 @@ public class CalculatorSteps {
         System.out.println("Caclulator Initialized");
     }
 
-    @When("I add (int) and (int)")
+    @When("I add {int} and {int}")
     public void i_add_and(int num1, int num2){
         result = calculator.add(num1,num2);
     }
 
-    @Then("the result should be (int")
+    @Then("the result should be {int}")
     public void the_result_should_be(int expected){
         assertEquals(expected,result);
     }
